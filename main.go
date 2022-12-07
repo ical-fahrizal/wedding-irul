@@ -20,6 +20,7 @@ func main() {
 	r.StaticFile("/favicon.ico", "./img/favicon.ico")
 
 	// r.LoadHTMLGlob("templates/**/*")
+	// test
 	r.LoadHTMLGlob("templates/**")
 	controller.Router(r)
 
